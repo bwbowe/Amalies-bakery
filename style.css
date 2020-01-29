@@ -8,18 +8,22 @@ header {
     height: 70px;
     align-items: center;
     justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    border-bottom: 3px solid rgb(246, 174, 0);
 }
 nav {
     display: flex;
-    width: 30%;
-    justify-content: space-between;
+    width: 50%;
+    justify-content: flex-end;
     flex-wrap: wrap;
 }
 li {
     list-style: none;
     display: inline-block;
     color: white;
-    width: 90px;
+    width: 85px;
+    padding: 5px 0;
 }
 nav a {
     text-decoration: none;
@@ -51,10 +55,71 @@ h6 {
 .weight {
     font-weight: 100;
 }
-nav li:hover {
+nav .home:hover {
     background-image: url(./images/icon-underline-yellow.png);
     background-repeat: no-repeat;
     background-position: bottom left;
-    background-size: 75px;
-    background-
+    background-size: 53px;
+}
+nav .about:hover {
+    background-image: url(./images/icon-underline-yellow.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 60px;
+}
+nav .blog:hover {
+    background-image: url(./images/icon-underline-yellow.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 50px;
+}
+nav .contact:hover {
+    background-image: url(./images/icon-underline-yellow.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 80px;
+}
+.intro {
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    background-image: url(./images/interior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+.store {
+    background-color: rgb(0, 0, 0, .9);
+    color: white;
+    text-align: center;
+    display: inline-block;
+}
+h1 {
+    font-size: 4rem;
+    font-family: "Dancing Script";
+    margin: 0 0 20px 0;
+}
+.store p {
+    width: 70%;
+    margin: auto;
+    padding: 15px 0 20px 0;
+}
+.shop a { 
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 8px;
+}
+.shop a:hover {
+    background-image: url(./images/icon-underline-yellow.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 100%;
+}
+.store h3 {
+    font-weight: 100;
+    padding: 10px;
+    margin: 10px 0 0 0;
+    text-transform: uppercase;
 }
