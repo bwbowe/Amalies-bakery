@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     background-color: rgb(73, 73, 73);
     font-family: Arial, Helvetica, sans-serif;
@@ -173,4 +176,47 @@ padding-top: 15px;
 }
 .offer h2 {
     padding-bottom: 8px;
+}
+.welcome {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0 15%;
+}
+.welcome-message {
+    text-align: center;
+    width: 100%;
+    clear: both;
+    padding: 20px 0;
+
+}
+.welcome-item {
+    width: 30%;
+    text-align: center;
+    padding-bottom:30px;
+}
+.welcome-item p {
+    width: 90%;
+    margin: auto;
+}
+#return h4 {
+    border-right: 2px solid rgb(246, 174, 0);
+    border-left: 2px solid rgb(246, 174, 0);
+}
+.welcome-message h5 {
+    color: rgb(246, 174, 0);
+    font-weight: 200;
+}
+.welcome-message h2 {
+    font-family: "dancing script";
+    font-size: 2rem;
+}
+.welcome-item p {
+    font-size: .75rem;
+}
+.welcome-item img {
+    width: 40%;
 }
