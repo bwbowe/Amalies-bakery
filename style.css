@@ -44,12 +44,12 @@ nav a {
     color: white;
     padding: 10px;
 }
-h2 {
+header h2 {
     margin: 0px;
     padding: 0px;
     /* font-size: 2rem; */
 }
-h6 {
+header h6 {
     color: rgb(246, 174, 0);
     margin: 0px;
     padding: 0px;
@@ -150,8 +150,10 @@ padding-top: 15px;
     color: white;
 }
 .offer h3 {
-    font-family: "Dancing Script";
+    font-family: "Permanent Marker";
     color: white;
+    font-size: 1.25rem;
+    margin-top: 0;
 }
 .thin {
     font-weight: 100;
@@ -206,6 +208,10 @@ padding-top: 15px;
     border-right: 2px solid rgb(246, 174, 0);
     border-left: 2px solid rgb(246, 174, 0);
 }
+#quality h4 {
+    width: 80%;
+    margin: 21px auto;
+}
 .welcome-message h5 {
     color: rgb(246, 174, 0);
     font-weight: 200;
@@ -218,5 +224,54 @@ padding-top: 15px;
     font-size: .75rem;
 }
 .welcome-item img {
-    width: 40%;
+    width: 60%;
+}
+#ad-container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+}
+.ad {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    background-image: url(./images/strawberry.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+.ad a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin: 0;
+}
+.ad a:hover {
+    background-image: url(./images/icon-underline-yellow.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    
+}
+.ad h3 {
+    padding: 8px;
+    margin: 0;
+}
+.ad h5 {
+    font-weight: 100;
+    color: rgb(246, 174, 0);
+    padding-top: 15px;
+    margin: 0;
+    text-shadow: 2px 2px rgba(0, 0, 0, .9);
+}
+.ad .bold {
+    font-weight: bold;
+}
+.ad h2 {
+    font-family: "dancing script";
+    font-size: 3rem;
+    padding: 0;
+    color: rgb(246, 174, 0);
+    text-shadow: 2px 2px rgba(0, 0, 0, .9);
+    margin: 5px 0;
 }
