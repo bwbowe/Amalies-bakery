@@ -319,3 +319,26 @@ padding-top: 15px;
 .cake-icon:hover {
     background-color: rgb(246, 174, 0);
 }
+.bread-container {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding-top: 75px;
+}
+.bread-box img {
+    height: 60px;
+}
+.bread-box {
+    display: inline-block;
+    width: 20%;
+}
+.bread-box h5 {
+    font-family: "permanent Marker";
+    color: black;
+}
+.bread-box h4{
+    font-family: "dancing script";
+    color: rgb(246, 174, 0);
+}
