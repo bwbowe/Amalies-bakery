@@ -275,3 +275,47 @@ padding-top: 15px;
     text-shadow: 2px 2px rgba(0, 0, 0, .9);
     margin: 5px 0;
 }
+.cakes {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-color: white;
+}
+.cakes h5 {
+    color: rgb(246, 174, 0);
+    font-weight: 200;
+    margin: 0;
+    padding-top: 3rem;
+}
+.cakes h2 {
+    font-family: "dancing script";
+    font-size: 2rem;
+}
+.cakes-container {
+    display: flex;
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.cake-icon {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(187, 187, 187);
+    border-radius: 5px;
+    margin: 10px 15px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.cake-icon img {
+    padding: 10px;
+}
+#cake-text {
+    padding-top: 12px;
+    color: white;
+    font-size: .75rem;
+}
+.cake-icon:hover {
+    background-color: rgb(246, 174, 0);
+}
