@@ -82,6 +82,14 @@ nav .contact:hover {
     background-position: bottom left;
     background-size: 80px;
 }
+section h5 {
+    font-weight: 200;
+    margin: 0;
+}
+section h2 {
+    font-family: "dancing script";
+    font-size: 2rem;
+}
 .intro {
     width: 80%;
     height: 500px;
@@ -214,11 +222,6 @@ padding-top: 15px;
 }
 .welcome-message h5 {
     color: rgb(246, 174, 0);
-    font-weight: 200;
-}
-.welcome-message h2 {
-    font-family: "dancing script";
-    font-size: 2rem;
 }
 .welcome-item p {
     font-size: .75rem;
@@ -269,7 +272,6 @@ padding-top: 15px;
     font-weight: bold;
 }
 .ad h2 {
-    font-family: "dancing script";
     font-size: 3rem;
     padding: 0;
     color: rgb(246, 174, 0);
@@ -284,13 +286,8 @@ padding-top: 15px;
 }
 .cakes h5 {
     color: rgb(246, 174, 0);
-    font-weight: 200;
     margin: 0;
     padding-top: 3rem;
-}
-.cakes h2 {
-    font-family: "dancing script";
-    font-size: 2rem;
 }
 .cakes-container {
     display: flex;
@@ -351,14 +348,10 @@ padding-top: 15px;
 }
 .testimonials h5 {
     color: rgb(246, 174, 0);
-    font-weight: 200;
-    margin: 0;
     padding-top: 1rem;
     padding-bottom: 0;
 }
 .testimonials h2 {
-    font-family: "dancing script";
-    font-size: 2rem;
     color: white;
     margin-top: 10px;
 }
@@ -381,13 +374,7 @@ padding-top: 15px;
 }
 .news h5 {
     color: rgb(246, 174, 0);
-    font-weight: 200;
-    margin: 0;
     padding-top: 3rem;
-}
-.news h2 {
-    font-family: "dancing script";
-    font-size: 2rem;
 }
 .blog-container {
     display: flex;
@@ -447,18 +434,12 @@ padding-top: 15px;
 }
 .message h5 {
     color: black;
-    font-weight: 200;
     padding-top: 30px;
-    margin: 0;
-}
-.message h2 {
-    font-family: "dancing script";
-    font-size: 2rem;
 }
 .contact-box {
     width: 50%;
     margin: auto;
-    background-color: lightgray;
+    background-color: white;
     padding: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -467,16 +448,16 @@ padding-top: 15px;
 }
 .contact-info {
     width: 30%;
-    color: white;
+    color: lightgray;
     text-align: left;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid lightgray;
 }
 .your-message {
     width: 100%;
-    color: white;
+    color: lightgray;
     text-align: left;
     height: 100px;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid lightgray;
 }
 .contact-info h6 {
     margin: 5px 0;
@@ -488,12 +469,62 @@ padding-top: 15px;
 }
 .send-email a {
     text-decoration: none;
-    color: white;
+    color: black;
     font-weight: bold;
     padding-bottom: 8px;
     margin: 0;
 }
 .send-email a:hover {
+    background-image: url(./images/icon-underline-yellow.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 8px;
+    background-size: 100%;
+}
+.location {
+    display: flex;
+    justify-content: flex-end;
+    width: 80%;
+    margin: auto;
+    padding: 20PX 0;
+    background-image: url(./images/foodbkg.png);
+    color: white;
+    background-size: cover;
+}
+.location-info {
+    width: 25%;
+}
+.map {
+    background-image: url(./images/map.png);
+    width: 55%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.location h5 {
+    color: rgb(246, 174, 0);
+}
+.contact-item {
+    display: flex;
+    margin: 4px 0;
+}
+.contact-item img {
+    height: 75%;
+}
+.contact-item h6 {
+    margin: 0 0 0 10px;
+    padding: 0;
+}
+.contact-text {
+    margin: auto 0;
+}
+.location-info a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin-left: 25%;
+}
+.location-info a:hover {
     background-image: url(./images/icon-underline-yellow.png);
     background-repeat: no-repeat;
     background-position: bottom;
