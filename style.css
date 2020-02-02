@@ -251,6 +251,7 @@ padding-top: 15px;
     background-image: url(./images/icon-underline-yellow.png);
     background-repeat: no-repeat;
     background-position: bottom;
+    background-size: 100%;
     
 }
 .ad h3 {
@@ -433,6 +434,7 @@ padding-top: 15px;
     background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 8px;
+    background-size: 100%;
 }
 .message {
     width: 80%;
@@ -496,4 +498,5 @@ padding-top: 15px;
     background-repeat: no-repeat;
     background-position: bottom;
     padding-bottom: 8px;
+    background-size: 100%;
 }
