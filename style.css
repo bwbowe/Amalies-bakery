@@ -434,3 +434,66 @@ padding-top: 15px;
     background-position: bottom;
     padding-bottom: 8px;
 }
+.message {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    background-image: url("./images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg");
+    border-top:1px solid rgb(246, 174, 0);
+    background-size: cover;
+    height: 400px;
+}
+.message h5 {
+    color: black;
+    font-weight: 200;
+    padding-top: 30px;
+    margin: 0;
+}
+.message h2 {
+    font-family: "dancing script";
+    font-size: 2rem;
+}
+.contact-box {
+    width: 50%;
+    margin: auto;
+    background-color: lightgray;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+.contact-info {
+    width: 30%;
+    color: white;
+    text-align: left;
+    border-bottom: 1px solid white;
+}
+.your-message {
+    width: 100%;
+    color: white;
+    text-align: left;
+    height: 100px;
+    border-bottom: 1px solid white;
+}
+.contact-info h6 {
+    margin: 5px 0;
+}
+.send-email {
+    text-align: center;
+    margin: auto;
+    font-weight: 900;
+}
+.send-email a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding-bottom: 8px;
+    margin: 0;
+}
+.send-email a:hover {
+    background-image: url(./images/icon-underline-yellow.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 8px;
+}
