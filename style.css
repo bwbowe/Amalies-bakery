@@ -99,7 +99,8 @@ section h2 {
 }
 .intro {
     height: 500px;
-    background-image: url(./images/interior.jpg);
+    /* background-image: url(./images/interior.jpg); */
+    background-image: url(./images/yeh-xintong-go3DT3PpIw4-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
