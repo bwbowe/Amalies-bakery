@@ -43,13 +43,16 @@ nav a {
     width: 200px;
     color: white;
     padding: 10px;
+    height: 70px;
 }
-header h2 {
+.logo-text h2 {
     margin: 0px;
     padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
     /* font-size: 2rem; */
 }
-header h6 {
+.logo-text h6 {
     color: rgb(246, 174, 0);
     margin: 0px;
     padding: 0px;
@@ -82,6 +85,10 @@ nav .contact:hover {
     background-position: bottom left;
     background-size: 80px;
 }
+section {
+    width: 80%;
+    margin: auto;
+}
 section h5 {
     font-weight: 200;
     margin: 0;
@@ -91,9 +98,7 @@ section h2 {
     font-size: 2rem;
 }
 .intro {
-    width: 80%;
     height: 500px;
-    margin: auto;
     background-image: url(./images/interior.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,8 +145,6 @@ h1 {
 padding-top: 15px;
 }
 .specials {
-    width: 80%;
-    margin: auto;
     display: flex;
     justify-content: center;
     /* background-color: rgb(35, 35, 35); */
@@ -186,10 +189,10 @@ padding-top: 15px;
 }
 .offer h2 {
     padding-bottom: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.75rem;
 }
 .welcome {
-    width: 80%;
-    margin: auto;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -230,8 +233,6 @@ padding-top: 15px;
     width: 60%;
 }
 #ad-container {
-    width: 80%;
-    margin: 0 auto;
     background-color: white;
 }
 .ad {
@@ -279,8 +280,6 @@ padding-top: 15px;
     margin: 5px 0;
 }
 .cakes {
-    width: 80%;
-    margin: auto;
     text-align: center;
     background-color: white;
 }
@@ -341,8 +340,6 @@ padding-top: 15px;
     color: rgb(246, 174, 0);
 }
 .testimonials {
-    width: 80%;
-    margin: auto;
     text-align: center;
     background-image: url(./images/bkg-bread.jpg);
 }
@@ -367,8 +364,6 @@ padding-top: 15px;
     color: rgb(246, 174, 0);
 }
 .news {
-    width: 80%;
-    margin: auto;
     text-align: center;
     background-color: white;
 }
@@ -424,8 +419,6 @@ padding-top: 15px;
     background-size: 100%;
 }
 .message {
-    width: 80%;
-    margin: auto;
     text-align: center;
     background-image: url("./images/joanna-kosinska-1_CMoFsPfso-unsplash.jpg");
     border-top:1px solid rgb(246, 174, 0);
@@ -484,8 +477,6 @@ padding-top: 15px;
 .location {
     display: flex;
     justify-content: flex-end;
-    width: 80%;
-    margin: auto;
     padding: 20PX 0;
     background-image: url(./images/foodbkg.png);
     color: white;
@@ -499,6 +490,7 @@ padding-top: 15px;
     width: 55%;
     background-size: contain;
     background-repeat: no-repeat;
+    margin-top: 5%;
 }
 .location h5 {
     color: rgb(246, 174, 0);
@@ -508,7 +500,7 @@ padding-top: 15px;
     margin: 4px 0;
 }
 .contact-item img {
-    height: 75%;
+    width: 20%;
 }
 .contact-item h6 {
     margin: 0 0 0 10px;
@@ -522,7 +514,7 @@ padding-top: 15px;
     color: white;
     font-weight: bold;
     padding-bottom: 8px;
-    margin-left: 25%;
+    margin-left:  25%;
 }
 .location-info a:hover {
     background-image: url(./images/icon-underline-yellow.png);
@@ -530,4 +522,98 @@ padding-top: 15px;
     background-position: bottom;
     padding-bottom: 8px;
     background-size: 100%;
+}
+.info {
+    display: flex;
+    background-color: white;
+    padding: 30px;
+    justify-content: space-between;
+}
+.bakery-info {
+    width: 35%;
+}
+.bakery-info .logo {
+    padding-left: 0;
+    height: 65px;
+}
+.bakery-info h6 {
+    margin: 0;
+    padding: 0;
+}
+.bakery-info h2 {
+    color: black;
+}
+.bakery-item {
+    display: flex;
+    margin: 5px;
+    padding: 0;
+}
+.bakery-item img {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+}
+.bakery-item h6 {
+    margin: 5px 10px;
+}
+
+.amalies-info{
+    width: 20%;
+}
+.account {
+    width: 20%;
+}
+.instagram {
+    width: 20%;
+}
+.info-item img {
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+}
+.info-item {
+    display: flex;
+}
+.info-item h6 {
+    margin: 5px;
+}
+.amalies-info h5 {
+    margin: 0 0 30px 20px;
+}
+.account h5 {
+    margin: 0 0 30px 20px;
+}
+.instagram h5 {
+    margin: 0 0 30px 20px;
+}
+.photo-squares {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    height: 120px;
+}
+.photo {
+    height: 55px;
+    width: 55px;
+    background-size: cover;
+    background-position: center;
+}
+#photo1 {
+    background-image: url(./images/nathan-dumlao-YUzSjKG9QmU-unsplash.jpg);
+}
+#photo2 {
+    background-image: url(./images/mae-mu-BxsGyQwjwaw-unsplash.jpg);
+}
+#photo3 {
+    background-image: url(./images/wesual-click-rsWZ-P9FbQ4-unsplash.jpg);
+}
+#photo4 {
+    background-image: url(./images/mae-mu-m9pzwmxm2rk-unsplash.jpg);
+}
+#photo5 {
+    background-image: url(./images/heather-barnes-WbZesfqwR-A-unsplash.jpg);
+}
+#photo6 {
+    background-image: url(./images/nadya-spetnitskaya-tOYiQxF9-Ys-unsplash.jpg);
 }
