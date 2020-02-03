@@ -635,3 +635,208 @@ footer {
     width: 45%;
     justify-content: space-between;
 }
+/* media querries  */
+@media only screen and (max-width:1024px) and (min-width:414px) {
+    section {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    .cakes-container {
+        width: 100%;
+    }
+    .bread-container {
+        width: 90%;
+    }
+    body {
+        margin: 0;
+    }
+    .bakery-info {
+        width: 40%;
+    }
+    .photo-squares {
+        justify-content: center;
+        align-content: center;
+    }
+    .contact-box {
+        width: 70%;
+    }
+}
+@media only screen and (max-width:414px) {
+    body {
+        margin: 0;
+    }
+    header {
+        width: 100%;
+        display: inline-block;
+        height: 85px;
+    }
+    .logo {
+        padding: 0;
+        width: 300px;
+        height: 50px;
+    }
+    .logo img {
+        height: 45px;
+    }
+    .logo-text {
+        padding: 10px;
+    }
+    .logo h2 {
+        font-size: 1rem;
+    }
+    nav {
+        justify-content: space-around;
+        width: 100%;
+    }
+    section {
+        width: 100%;
+    }
+    footer {
+        width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+    .store h3 {
+        font-size: 16px;
+    }
+    p {
+        font-size: 12px;
+    }
+    .offer {
+        padding: 10px 0;
+        margin: 10px;
+    }
+    .offer h3 {
+        font-size: 1rem;
+        margin: 0;
+    }
+    .offer h2 {
+        margin: 10px 0 0 0;
+        font-size: 1.25rem;
+    }
+    .offer p {
+        margin: 0;
+    }
+    .welcome {
+        padding: 0;
+    }
+    .welcome-message {
+        padding: 10px 15px 0 15px;
+    }
+    .welcome-item img {
+        height: 40px;
+        width: 40px;
+    }
+    .welcome-item p {
+        font-size: 10px;
+    }
+    .ad {
+        width: 100%;
+    }
+    .ad h2 {
+        font-size: 2rem;
+    }
+    .ad h3 {
+        font-size: 1rem;
+    }
+    .cakes-container {
+        width: 90%;
+    }
+    .bread-container {
+        flex-direction: column;
+        align-content: center;
+    }
+    .bread-box {
+        width: 75%;
+    }
+    .bread-box img {
+        height: 100px;
+    }
+    #french-loaf img{
+        height: 60px;
+    }
+    .bread-box h5 {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    .testimonials h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        font-weight: 100;
+    }
+    .blog-body {
+        margin: 0;
+        width: 50%;
+    }
+    .blog-container {
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .news {
+        padding: 0 5px;
+    }
+    .date h2 {
+        font-size: 1.75rem;
+    }
+    .post h5 {
+        font-size: 12px;
+    }
+    .post p {
+        font-size: 12px;
+    }
+    .contact-box {
+        width: 95%;
+    }
+    .contact-info h6 {
+        font-size: 10px;
+    }
+    .location-info {
+        width: 45%;
+    }
+    .info {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bakery-info {
+        width: 100%;
+    }
+    .amalies-info {
+        width: 50%;
+        padding-top: 25px;
+    }
+    .account {
+        width: 50%;
+        padding-top: 25px;
+    }
+    .instagram {
+        width: 80%;
+        padding-top: 25px;
+        text-align: center;
+
+    }
+    .photo {
+        height: 65px;
+        width: 65px;
+        margin: 5px;
+    }
+    .info h5 {
+        margin: 10px;
+    }
+    .footer-container {
+        flex-direction: column-reverse;
+    }
+    .footer-container h6 {
+        width: 100%;
+    }
+    .footer-right {
+        width: 100%;
+    }
+
+}
