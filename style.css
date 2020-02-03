@@ -617,3 +617,20 @@ padding-top: 15px;
 #photo6 {
     background-image: url(./images/nadya-spetnitskaya-tOYiQxF9-Ys-unsplash.jpg);
 }
+footer {
+    width: 80%;
+    margin: auto;
+    background-color: white;
+}
+.footer-container {
+    width: 95%;
+    margin: auto;
+    border-top: 1px solid rgb(246, 174, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.footer-right {
+    display: flex;
+    width: 45%;
+    justify-content: space-between;
+}
